@@ -5,25 +5,25 @@ export default function App({ Component, pageProps }) {
     <div>
       {/* --  Manifold Widgets -- */}
       {/* Connect: */}
-      <script
-        src='https://connect.manifoldxyz.dev/latest/connect.umd.js'
+      {/* <script
+        src='https://connect.manifoldxyz.dev/2.2.4/connect.umd.js'
         async
       ></script>
 
       <link
         rel='stylesheet'
-        href='https://connect.manifoldxyz.dev/latest/connect.css'
-      />
+        href='https://connect.manifoldxyz.dev/2.2.4/connect.css'
+      /> */}
 
       {/* Marketplace listing: */}
-      <script
-        src='https://marketplace.manifoldxyz.dev/3.3.3/marketplace.umd.min.js'
+      {/* <script
+        src='https://marketplace.manifoldxyz.dev/3.3.7/marketplace.umd.min.js'
         async
       ></script>
       <link
         rel='stylesheet'
-        href='https://marketplace.manifoldxyz.dev/3.3.3/marketplace.css'
-      />
+        href='https://marketplace.manifoldxyz.dev/3.3.7/marketplace.css'
+      /> */}
       <Component {...pageProps} />
     </div>
   );
